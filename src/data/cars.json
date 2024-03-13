@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "make": "BMW",
+    "model": "X3",
+    "type": "suv",
+    "sales": [
+      {
+        "date": "2023-04-01",
+        "reseller": "shop-one"
+      },
+      {
+        "date": "2023-05-21",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "make": "Audi",
+    "model": "A3",
+    "type": "hatchback",
+    "sales": [
+      {
+        "date": "2023-01-23",
+        "reseller": "shop-two"
+      },
+      {
+        "date": "2023-04-22",
+        "reseller": "shop-one"
+      },
+      {
+        "date": "2023-09-18",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "make": "Tesla",
+    "model": "Model 3",
+    "type": "electric",
+    "sales": [
+      {
+        "date": "2023-02-27",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "type": "sedan",
+    "sales": [
+      {
+        "date": "2023-09-18",
+        "reseller": "shop-one"
+      },
+      {
+        "date": "2023-06-10",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "make": "Toyota",
+    "model": "Rav4",
+    "type": "suv",
+    "sales": [
+      {
+        "date": "2023-07-05",
+        "reseller": "shop-one"
+      },
+      {
+        "date": "2023-09-18",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "make": "Honda",
+    "model": "Civic",
+    "type": "sedan",
+    "sales": [
+      {
+        "date": "2023-05-29",
+        "reseller": "shop-one"
+      },
+      {
+        "date": "2020-08-30",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "make": "Ford",
+    "model": "Escape",
+    "type": "suv",
+    "sales": [
+      {
+        "date": "2023-05-29",
+        "reseller": "shop-two"
+      },
+      {
+        "date": "2020-09-15",
+        "reseller": "shop-one"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "type": "sedan",
+    "sales": [
+      {
+        "date": "2023-07-20",
+        "reseller": "shop-two"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "make": "Nissan",
+    "model": "Rogue",
+    "type": "suv",
+    "sales": [
+      {
+        "date": "2021-02-18",
+        "reseller": "shop-two"
+      },
+      {
+        "date": "2024-03-7",
+        "reseller": "shop-one"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "make": "Mazda",
+    "model": "CX-5",
+    "type": "suv",
+    "sales": [
+      {
+        "date": "2023-01-10",
+        "reseller": "shop-one"
+      },
+      {
+        "date": "2019-04-28",
+        "reseller": "shop-two"
+      }
+    ]
+  }
+]

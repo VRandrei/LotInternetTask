@@ -1,0 +1,10 @@
+[
+  {
+    "label": "DATE",
+    "accessor": "date"
+  },
+  {
+    "label": "RESELLER",
+    "accessor": "reseller"
+  }
+]

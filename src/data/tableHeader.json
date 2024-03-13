@@ -1,0 +1,22 @@
+[
+  {
+    "label": "ID",
+    "accessor": "id"
+  },
+  {
+    "label": "MAKE",
+    "accessor": "make"
+  },
+  {
+    "label": "MODEL",
+    "accessor": "model"
+  },
+  {
+    "label": "TYPE",
+    "accessor": "type"
+  },
+  {
+    "label": "TOTAL SOLD",
+    "accessor": "sales"
+  }
+]
