@@ -37,12 +37,20 @@ const Auto: React.FC = () => {
                 filters.resellers.length === 0 ||
                 filters.resellers.some((reseller) =>
                     item.sales.some((sale) => sale.reseller === reseller)
-                );
+                )
 
             return makeFilter && modelFilter && typesFilter && resellersFilter;
         });
 
-        setFilteredData(filtered);
+        const filteredRes = filtered.map((item: Car) => {
+            if(filters.resellers.length === 0){
+                return {...item}
+            }
+
+            return {...item, sales: item.sales.filter((res) => filters.resellers.includes(res.reseller))}
+        })
+
+        setFilteredData(filteredRes);
     }, [filters, cars]);
 
     const handleMakeChange = (event: SelectChangeEvent) => {
